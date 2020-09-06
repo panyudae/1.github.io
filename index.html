@@ -10,52 +10,60 @@
 </head>
 
 <body>
-  <div class="navi">
+  <div class= "navi">
     <ul>
-      <li>About Me</li>
-      <li>Beauty In Every Season</li>
-      <li>Other Works</li>
-      <li>Contact Me</li>
+      <li><a  href="#aboutme2">About Me</a></li>
+      <li><a href="#beu">Projects</a></li>
+      <li><a href="#others">Other Works</a></li>
+      <li><a href="#contact">Contact Me</a></li>
     </ul>
-  </div>
-
+    </div>
+  <div class="bg">
   <div class="top">
-    <h1>Hello World!</h1>
-    <img id="profile" src="image/camera.png" alt="pic of me">
+    <h1>Hello <span id=name></span></h1>
     <h3 class="introduction">Welcome to this little website I made to show (off) my photography adeventures and web devlopment skills 😉</h3>
-    <hr>
+  </div>
+</div>
+  <div class="aboutme2">
+    <hr id="aboutme2">
     <h2>About Me</h2>
     <img id="view1" src="image/view1.jpeg" alt="View 1">
     <img id="view2" src="image/view2.jpeg" alt="View 2">
     <p class="aboutme">
-      I am a currently a first year student in Nanyang Technological University, Singapore, under the Renaissance Engineering Programe.
-      Some of my hobbies include photography, web design and music.
+      I am a currently a first year student in Nanyang Technological University, Singapore, under the Renaissance Engineering Programe.<br>
+      Some of my hobbies include photography, web design and music.<br>
       I like to travel and explore new stuff! </p>
-  </div>
-  <hr>
+
+    </div>
+  <hr id="beu">
   <div class="beu">
     <h2>Beauty In Every Season</h2>
-    <h3><span> - a portfolio project</span></h3>
+    <h3><span> --- a portfolio project ---</span></h3>
     <p class="des-1">Inspired by my travel to the Northernparts of China in the winter.
       <br>
       Coming from sunny Singapore, I deided to capture the refreshing sight through photography
       and craft into a calendar. Remember and appreciate these memories throughout the year.</p>
     <img id="jan" src="image/3.png" alt="Jan">
     <img id="feb" src="image/2.png" alt="Feb">
+    <br>
     <img id="mar" src="image/1.png" alt="Mar">
     <img id="apr" src="image/4.png" alt="Apr">
+    <br>
     <img id="may" src="image/5.png" alt="May">
     <img id="june" src="image/6.png" alt="June">
+    <br>
     <img id="july" src="image/7.png" alt="July">
     <img id="aug" src="image/8.png" alt="Aug">
+    <br>
     <img id="sept" src="image/9.png" alt="Sept">
     <img id="oct" src="image/10.png" alt="Oct">
+    <br>
     <img id="nov" src="image/11.png" alt="Nov">
     <img id="dec" src="image/12.png" alt="Dec">
   </div>
-  <hr>
+  <hr id="others">
   <div class="others">
-    <h2>Other Works</h2>
+    <h2 >Other Works</h2>
     <h4>Landscapes</h4>
     <img id="v3" src="images/v3.jpeg" alt="V3">
     <img id="v4" src="images/v4.jpeg" alt="V4">
@@ -85,7 +93,9 @@
     <img id="light2" src="images/light2.jpeg" alt="Light2">
     <img id="light3" src="images/light3.jpeg" alt="Light3">
   </div>
-  <hr>
+
+  </div>
+  <hr id="contact">
   <div class="bottom">
     <h2>Contact Me</h2>
     <a class="contactlink" href="popup.html">click here to contact me!</a>
@@ -93,7 +103,9 @@
       © 2020 PAN YU.
       </h6s>
   </div>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="index.js" charset="utf-8"></script>
+<!-- add button to navigation-->
 </body>
 
 </html>
